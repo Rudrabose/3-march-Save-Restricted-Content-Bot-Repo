@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Downloaded by Shaurya**__" if msg.caption else "__Downloaded by Shaurya**__"
+                caption = f"{msg.caption}\n\n__Downloaded by @ARJUNALECTURES2025**__" if msg.caption else "__Downloaded by @ARJUNALECTURES2025**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__ **Downloaded by Shaurya**__" if msg.caption else "__ **Downloaded by Shaurya**__"
+                caption = f"{msg.caption}\n\n__ **Downloaded by @ARJUNALECTURES2025**__" if msg.caption else "__ **Downloaded by @ARJUNALECTURES2025**__"
                 await client.send_document(
                     sender,
                     path, 
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading:__**\n**__Bot made by Shaurya Soni**',
+                        '**__Uploading:__**\n**__Bot made by Joseph Davidson**',
                         upm,
                         time.time()
                     )
