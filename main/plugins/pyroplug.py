@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **Shaurya **__" if msg.caption else "__Downloaded by **Shaurya**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **@ARJUNALECTURES2025**__" if msg.caption else "__Downloaded by **@ARJUNALECTURES2025**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
